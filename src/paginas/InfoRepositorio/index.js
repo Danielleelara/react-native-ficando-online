@@ -6,6 +6,7 @@ export default function InfoRepositorio({ route, navigation }) {
     const [nome, setNome] = useState('');
     const [data, setData] = useState('');
 
+
     return (
         <View style={estilos.container}>
             <TextInput
